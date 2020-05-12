@@ -28,3 +28,8 @@ function saludo() {
 function edad(añoNacimiento) {
     return añoActual - añoNacimiento;
 }
+
+// Función con dos parámetros para sumar dos números.
+function suma(num1, num2) {
+    return num1 + num2;
+}
