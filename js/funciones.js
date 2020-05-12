@@ -22,9 +22,9 @@ function saludo() {
     console.log("Hola, " + respuesta + " ¿Qué tal estás?");
 }
 
-// Función con un parámetro, que usa una variable global
-// definida al principio del fichero, solo para mostrar un ejemplo
-// de uso de las funciones globales, aunque en este caso sería mejor que fueran locales.
-function edad(año) {
-    return añoActual - año;
+// Función con un parámetro, que usa una variable global definida al principio 
+// del fichero, solo para mostrar un ejemplo de uso de las funciones globales, 
+// resta el año actual al año de nacimiento de una persona, para obtener edad.
+function edad(añoNacimiento) {
+    return añoActual - añoNacimiento;
 }
